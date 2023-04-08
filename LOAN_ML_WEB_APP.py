@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model=pickle.load(open("C:/Users/princ/ML_DEPLOY PROJECT/ML_LOAN_MODEL/Loan_trained_model_wellpre.sav",'rb'))
+loaded_model=pickle.load(open("Loan_trained_model_wellpre.sav",'rb'))
 
 def loan_prediction(input_data):
 
